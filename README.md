@@ -1,1 +1,1 @@
-# Trang Hoang React portfolio
+# Trang Hoang React Portfolio
