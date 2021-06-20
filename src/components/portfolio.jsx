@@ -6,6 +6,8 @@ import stock2 from "../img/image3.PNG";
 import stock3 from "../img/image4.PNG";
 import stock5 from "../img/image6.PNG";
 import stock6 from "../img/image1.PNG";
+import stock7 from "../img/image7.PNG";
+
 class Portfolio extends React.Component {
   render() {
     return (
@@ -27,6 +29,32 @@ class Portfolio extends React.Component {
                 <div className="line-mf"></div>
               </div>
           <div className="row">
+            <div className="col-md-6">
+              <div className="work-box">
+                <a href={"https://cvguided.com/"} >
+                  <div className="work-img">
+                    <img src={stock7} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">CV Guided</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            React Redux Firebase Bootstrap
+                          </span>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
             <div className="col-md-6">
               <div className="work-box">
                 <a href={"https://github.com/tranghoang200/CoronaGuru"} >
@@ -51,7 +79,6 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                
               </div>
             </div>
             <div className="col-md-6">
@@ -78,7 +105,6 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-              
               </div>
             </div>
             <div className="title-box text-center col-md-12">
@@ -138,8 +164,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
-              
+                </a>            
               </div>
             </div>
             <div className="col-md-4">
@@ -165,8 +190,7 @@ class Portfolio extends React.Component {
                       </div>
                     </div>
                   </div>
-                </a>
-              
+                </a>              
               </div>
             </div>
           </div>
