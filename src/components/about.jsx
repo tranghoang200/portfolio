@@ -27,11 +27,13 @@ class About extends React.Component {
                                 <h2>Skills</h2>
                                 <span style={{marginRight:20, marginBottom: 10, padding: 10}} class="badge badge-pill badge-primary">Java</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">JavaScript</span>
+                                <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">TypeScript</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Python</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">HTML</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">CSS</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">SQL</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Git</span>
+                                <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Github</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Agile</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Eclipse</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">VSC</span>
@@ -44,11 +46,7 @@ class About extends React.Component {
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">React</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">React Native</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Android</span>
-
-                            
                       </div>
-                      
-            
                 </div>
               </div>
             </div>
