@@ -6,7 +6,7 @@ import stock2 from "../img/image3.PNG";
 import stock3 from "../img/image4.PNG";
 import stock5 from "../img/image6.PNG";
 import stock6 from "../img/image1.PNG";
-import stock7 from "../img/image7.PNG";
+import stock7 from "../img/image2.PNG";
 
 class Portfolio extends React.Component {
   render() {
@@ -81,7 +81,11 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-6">
+            </div>
+
+            <div className="row">
+              <div className="col-md-3"></div>
+             <div className="col-md-6">
               <div className="work-box">
                 <a href={"https://github.com/MrOhno/duocode/tree/master"}>
                   <div className="work-img">
@@ -107,93 +111,97 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="title-box text-center col-md-12">
+               <div className="col-md-3"></div>
+            </div>
+            <div className="title-box text-center">
                 <h4 className="title-a">Mobile Project</h4>
                 <p className="subtitle-a">
                   Here are some of my android app and cross-platform app.
                 </p>
                 <div className="line-mf"></div>
               </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"https://github.com/2ksoft/realty-analysis"} >
-                  <div className="work-img">
-                    <img src={stock2} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Estalysis App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React Native JavaScript Python Flask MongoDB NodeJS GoogleAPI Firebase
-                          </span>
+            <div className="row">
+              <div className="col-md-4">
+                <div className="work-box">
+                  <a href={"https://github.com/2ksoft/realty-analysis"} >
+                    <div className="work-img">
+                      <img src={stock2} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">Estalysis App</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">
+                              React Native JavaScript Python Flask MongoDB NodeJS GoogleAPI Firebase
+                            </span>
 
+                          </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"https://github.com/tranghoang200/Message-App"} >
-                  <div className="work-img">
-                    <img src={stock5} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Message App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            React Native  
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </a>            
+                  </a>
+                </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="work-box">
-                <a href={"https://github.com/tranghoang200/smart_finance"}>
-                  <div className="work-img">
-                    <img src={stock6} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Smart Finance App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Android Firebase NoSQL
-                          </span>
+              <div className="col-md-4">
+                <div className="work-box">
+                  <a href={"https://github.com/tranghoang200/Message-App"} >
+                    <div className="work-img">
+                      <img src={stock5} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">Message App</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">
+                              React Native  
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </a>              
+                  </a>            
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="work-box">
+                  <a href={"https://github.com/tranghoang200/smart_finance"}>
+                    <div className="work-img">
+                      <img src={stock6} alt="" className="img-fluid" />
+                    </div>
+                    <div className="work-content">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <h2 className="w-title">Smart Finance App</h2>
+                          <div className="w-more">
+                            <span className="w-ctegory">
+                              Android Firebase NoSQL
+                            </span>
+                          </div>
+                        </div>
+                        <div className="col-sm-4">
+                          <div className="w-like">
+                            <span className="ion-ios-plus-outline"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>              
+                </div>
               </div>
             </div>
-          </div>
+         
         </div>
       </section>
     );
