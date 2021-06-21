@@ -35,7 +35,7 @@ class About extends React.Component {
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Git</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Github</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Agile</span>
-                                <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">Eclipse</span>
+                                <span style={{marginRight:20, marginBottom: 10, padding: 10}} class="badge badge-pill badge-primary">Eclipse</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">VSC</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">NodeJS</span>
                                 <span style={{marginRight:20, padding: 10}} class="badge badge-pill badge-primary">MongoDB</span>
