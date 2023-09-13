@@ -44,7 +44,7 @@ class Intro extends React.Component {
               <p className="pt-3">
                 <a
                   className="btn btn-primary btn js-scroll px-4"
-                  href={"https://drive.google.com/file/d/1wRqkza2TV1YlIRrG68hJVngFoJs7u-0d/view?usp=sharing"} 
+                  href={"https://drive.google.com/file/d/1elNi1wEMOSb6U69Q49acMhpgqSCMBaTz/view?usp=drive_link"} 
                   role="button"
                 >
                   <i className="fa fa-download"></i> Download Resume
